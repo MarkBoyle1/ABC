@@ -1,0 +1,15 @@
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ABC.deps.json
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ABC.runtimeconfig.json
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ABC.runtimeconfig.dev.json
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ABC.dll
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ref/ABC.dll
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/bin/Debug/net5.0/ABC.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.csproj.AssemblyReference.cache
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.AssemblyInfoInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.AssemblyInfo.cs
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.csproj.CoreCompileInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.dll
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ref/ABC.dll
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/ABC/ABC/obj/Debug/net5.0/ABC.genruntimeconfig.cache
