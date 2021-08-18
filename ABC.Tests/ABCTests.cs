@@ -8,6 +8,8 @@ namespace ABC.Tests
 {
     public class UnitTest1
     {
+        ABC abc = new ABC();
+        BlockFactory blockFactory = new BlockFactory();
         [Fact]
         public void given_CreateBlocks_returns_list()
         {
@@ -34,7 +36,7 @@ namespace ABC.Tests
                 "ZM"
                 };
 
-                Assert.Equal(Program.CreateBlocks(), blocks);   
+                Assert.Equal(blockFactory.CreateBlocks(), blocks);   
         }
 
         [Fact]
@@ -44,7 +46,7 @@ namespace ABC.Tests
                 "BO",
                 "AK",
             };
-            Assert.Equal(1, Program.SearchForCharacter("A", blocks));
+            Assert.Equal(1, abc.SearchForCharacter("A", blocks));
         }
 
         [Fact]
@@ -54,7 +56,7 @@ namespace ABC.Tests
                 "BO",
                 "MK",
             };
-            Assert.Equal(2, Program.SearchForCharacter("A", blocks));
+            Assert.Equal(2, abc.SearchForCharacter("A", blocks));
         }
 
         [Fact]
@@ -64,7 +66,7 @@ namespace ABC.Tests
                 "BO",
                 "AK",
             };
-            Program.UpdateBlocks(1, blocks);
+            abc.UpdateBlocks(1, blocks);
 
             var expected = new List<string>(){
                 "BO"
@@ -76,19 +78,19 @@ namespace ABC.Tests
         [Fact]
         public void given_wordEqualsBARK_when_CanMakeWork_then_return_true()
         {
-            Assert.True(Program.CanMakeWork("BARK"));
+            Assert.True(abc.CanMakeWork("BARK"));
         }
 
         [Fact]
         public void given_wordEqualsBark_when_CanMakeWork_then_return_true()
         {
-            Assert.True(Program.CanMakeWork("Bark"));
+            Assert.True(abc.CanMakeWork("Bark"));
         }
 
         [Fact]
         public void given_wordEqualsBOOK_when_CanMakeWork_then_return_false()
         {
-            Assert.False(Program.CanMakeWork("BOOK"));
+            Assert.False(abc.CanMakeWork("BOOK"));
         }
     }
 }
